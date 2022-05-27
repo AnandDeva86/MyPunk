@@ -1,6 +1,6 @@
 # PUNK
 
-A Simple command line interface application(CLI).
+A simple command line interface application(CLI).
 
 ## Description
 
@@ -13,9 +13,6 @@ A command line interface application(CLI) application to fetch the data from the
 * click
 * requests
 
-### Installing
-
-* Fork the application using the fork option in GitHub.
 
 ### Executing program
 
@@ -25,14 +22,14 @@ A command line interface application(CLI) application to fetch the data from the
 docker build -t <image_name> .
 ```
 
-* How to run the program
+* Run the docker image with
 
 ```
 docker run -v ${pwd}/data:/data/ --rm <image_name> punk beers brewed-from <mm-yyyy> brewed-until <mm-yyyy> --output-format csv --output-path /data/selected_beers.csv
 ```
 
 ## Authors
-[Anand Devarajan](https://www.linkedin.com/in/ananddevarajan/)
+[Anand Devarajan](https://www.linkedin.com/in/ananddevarajan)
 
 ## Version History
 * 0.1
