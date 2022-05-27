@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.py
+src/punk.egg-info/PKG-INFO
+src/punk.egg-info/SOURCES.txt
+src/punk.egg-info/dependency_links.txt
+src/punk.egg-info/entry_points.txt
+src/punk.egg-info/top_level.txt
